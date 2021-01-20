@@ -1,0 +1,135 @@
+body, h1, h1, p, ul, li, a {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.menu-bg {
+    background: #F1EEF8;
+}
+
+.menu {
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #222;
+}
+
+.menu-nav a {
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.menu-nav a:hover {
+    color: #9FA1A8;
+    transition: .5s;
+}
+
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* INTRODUÇÃO */
+
+.frase-topico {
+    max-width: 960px;
+    line-height: 1;
+    font-size: 3em;
+    margin: 60px auto;
+  
+}
+
+
+/* SOBRE */
+
+.sobre {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info h1 {
+    font-size: 2.25em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    flex: 2 1 200px;
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+/* GATOS FOFOS */
+.gatos-fofos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.gatos-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.gato-fofo {
+   flex: 1 1 ¢₢¢A;
+   margin:0px 20px 0px 0px ;
+   padding: 0 auto;
+}
+
+/* FOOTER*/
+
+.footer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background: #F1EEF8;
+}
+
+.footer p {
+    flex: 1;
+    font-size: 1.25em;
+    text-align: center;
+    color: #222;
+    font-weight: bold;
+}
